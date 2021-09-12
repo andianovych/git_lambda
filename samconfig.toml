@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "testlambda"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-18c0amwfusdo9"
+s3_prefix = "testlambda"
+region = "eu-central-1"
+confirm_changeset = false
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
